@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>It's My Website</title>
+  </head>
+  <body>
+    <script src="index.js"></script>
+
+    <header>
+      <nav>
+        <nav class="left">Prasad's Web</nav>
+        <nav class="right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutMe.html">About Me</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </nav>
+    </header>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hello I am <span class="purple">Prasad Shelke</span>
+          <div>And I am A <span id="element"></span></div>
+          <a href="resume.pdf" target="_blank"><button class="btn" id="downloadButton">My Resume</button></a>
+          <a href="aboutMe.html" class="btn">About Me</a>
+        </div>
+        <div class="rightSection">
+          <img src="back.png" alt="" />
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer">
+          <div class="footer-second">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="aboutMe.html">About Me</a></li>
+              <li><a href="skills.html">Skills</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-third">
+            <ul>
+              <li>
+                <a
+                  href="https://www.instagram.com/prasad_shelke_1102/"
+                  target="_blank"
+                  ><i class="fab fa-instagram"></i> Instagram</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/prasad.shelke.5686"
+                  target="_blank"
+                  ><i class="fab fa-facebook"></i> Facebook</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/prasad-shelke-1b5764233/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i> LinkedIn</a
+                >
+              </li>
+              <li>
+                <a href="https://github.com/Prasad1102" target="_blank"
+                  ><i class="fab fa-github"></i> GitHub</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Android Developer",
+          "Good Learner",
+          "Programmer",
+        ],
+        typeSpeed: 100,
+      });
+    </script>
+  </body>
+</html>
